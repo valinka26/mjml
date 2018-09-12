@@ -32,6 +32,18 @@
         text-decoration: underline;
       }
 
+      .section{
+        padding:0 25px 0 40px;
+        background-color:#ffffff;
+      }
+
+      .section_first{
+        padding:40px 25px 0 40px;
+      }
+      .section_last{
+        padding:0 25px 30px 40px;
+      }
+
     </mj-style>
 
   </mj-head>
@@ -142,25 +154,23 @@
           <mj-image
               padding="0"
               src="http://multimedia.gr.chitai-gorod.ru/chitaigorod/1/1/photos/3326.png"
-              width="598px"
+              width="600px"
               href="https://www.chitai-gorod.ru/" />
           </mj-column>
       </mj-section>
 
       <!--CONTENT-->
-      <mj-wrapper
-        padding="40px 25px 30px 40px"
-        background-color="#ffffff">
-
+     
         <mj-section
           padding="0"
-          >
-          <mj-text>
-            А вы знали, что 30 июля отмечается Международный день друзей? Дружба связывает людей по всей планете и делает мир лучше. Мы считаем Любимых покупателей своими друзьями, поэтому дарим вам скидку 10% на всё! Скидка действует только для получателей письма.
-          </mj-text>
+          css-class="section section_first">
+          <mj-column padding="0">
+            <mj-text padding="0">
+              А вы знали, что 30 июля отмечается Международный день друзей? Дружба связывает людей по всей планете и делает мир лучше. Мы считаем Любимых покупателей своими друзьями, поэтому дарим вам скидку 10% на всё! Скидка действует только для получателей письма.
+            </mj-text>
+          </mj-column>
         </mj-section>
 
-      </mj-wrapper>
 
       <!--FOOTER-->
       <mj-section
@@ -192,13 +202,13 @@
               src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/2788.png" background-color="#26A9E0"></mj-social-element>
               <mj-social-element href="http://www.facebook.com/chitaigorod"
               src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/2789.png"
-              width="40px" background-color="#26A9E0"></mj-social-element>
+              background-color="#26A9E0"></mj-social-element>
               <mj-social-element href="http://twitter.com/chitaigorod"
               src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/2790.png"
-              width="40px" background-color="#26A9E0"></mj-social-element>
+              background-color="#26A9E0"></mj-social-element>
               <mj-social-element href="http://ok.ru/chitaigorod"
               src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/2791.png"
-              width="40px" background-color="#26A9E0"></mj-social-element>
+              background-color="#26A9E0"></mj-social-element>
               <mj-social-element href="https://www.instagram.com/chitai_gorod/"
               src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/2792.png" background-color="#26A9E0"></mj-social-element>
               <mj-social-element href="https://www.youtube.com/channel/UCbsqXVnwSqer9QttshVs76A"
@@ -206,11 +216,9 @@
             </mj-social>
         </mj-column>
       </mj-section>
-      <!--ENDFOOTER-->
-
-      <mj-spacer height="20px" />
+      <!--ENDFOOTER-->      
     </mj-wrapper>
-
+    <mj-spacer height="20px" />
     <mj-section
         full-width="full-width"
         background-color="#ffffff"
