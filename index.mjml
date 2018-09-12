@@ -1,0 +1,232 @@
+<mjml>
+  
+  <mj-head>
+     <mj-attributes>
+        <mj-all
+          font-family="Helvetica, Arial, sans-serif"
+          font-size="16px"
+          line-height="1.2"
+        />
+
+     </mj-attributes>
+
+    <mj-style inline="inline">
+      .linkHeader{
+        color: #ffffff;
+        text-decoration: none;
+        font-weight:normal;
+      }
+
+      .linkUnsubscr{
+        color: #808080;
+        font-weight: normal;
+        text-align: left;
+        margin: 0; padding: 0;
+        text-decoration: none;
+      }
+
+      .linkSmall{
+        font-size:14px;
+      }
+      .underlined{
+        text-decoration: underline;
+      }
+
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body
+    background-color="#f3f3f3"
+    full-width="full-width">
+
+      <mj-section
+        full-width="full-width"
+        background-color="#ffffff"
+        padding="0">
+
+          <mj-column
+              width="100%">
+              <mj-text
+                font-size="1px"
+                height="1px"
+                line-height="1px"
+                color="#ffffff"
+                background-color="#ffffff"
+                padding="0">
+                PREHEADER TEXT
+              </mj-text>
+              <mj-text
+              font-size="11px"
+              color="#808080"
+              font-family="Helvetica, Arial, sans-serif"
+              align="center">
+                Если сообщение отображается некорректно, нажмите
+                <a class="linkUnsubscr underlined" href="[[view]]">здесь</a> 
+              </mj-text>
+          </mj-column>
+
+      </mj-section>
+      <mj-spacer height="20px"/>
+
+    <mj-wrapper padding="0"
+      background-color="#f3f3f3">
+
+      <!--HEADER-->
+      <mj-section
+        background-color="#26A9E0"
+        padding="25px 40px"
+        border-radius="10px 10px 0 0">
+
+          <mj-column>
+            <mj-image
+                padding="0"
+                src="http://multimedia.gr.chitai-gorod.ru/chitaigorod/1/1/photos/103.png"
+                width="171px"
+                align="left"
+                href="https://www.chitai-gorod.ru/" />
+            </mj-column>
+            <mj-column></mj-column>
+            <mj-column
+              vertical-align="middle">
+              <mj-text
+                padding="17px 0"
+                css-class="header_right">
+                <a class="linkHeader" href="https://www.chitai-gorod.ru/">Войти</a><br />
+                <a class="linkHeader linkSmall" href="https://www.chitai-gorod.ru/">www.chitai-gorod.ru</a>
+              </mj-text>
+            </mj-column>
+
+      </mj-section>
+
+      <!--MENU-->
+      <mj-section
+        background-color="#ffffff"
+        padding="0 25px">
+          <mj-column>
+            <mj-navbar
+              base-url="https://www.chitai-gorod.ru/"
+              align="left" hamburger="hamburger"
+              >
+
+              <mj-navbar-link href="/catalog/books/"
+                  color="#333333"
+                  text-transform="capitalize"
+                  font-size="14px"
+                  padding="10px 15px">Книги</mj-navbar-link>
+              <mj-navbar-link href="/catalog/kanctovar/"
+                  color="#333333"
+                  text-transform="capitalize"
+                  font-size="14px"
+                  padding="10px 15px">Канцтовары</mj-navbar-link>
+              <mj-navbar-link href="/catalog/souvenirs/"
+                  color="#333333"
+                  text-transform="capitalize"
+                  font-size="14px"
+                  padding="10px 15px">Сувениры</mj-navbar-link>
+              <mj-navbar-link href="/collections/"
+                  color="#333333"
+                  text-transform="none"
+                  font-size="14px"
+                  padding="10px 15px">Что ещё почитать?</mj-navbar-link>
+            </mj-navbar>
+          </mj-column>
+      </mj-section>
+
+
+      <!--BANNER-->
+      <mj-section
+        padding="0">
+        <mj-column
+          padding="0">
+          <mj-image
+              padding="0"
+              src="http://multimedia.gr.chitai-gorod.ru/chitaigorod/1/1/photos/3326.png"
+              width="598px"
+              href="https://www.chitai-gorod.ru/" />
+          </mj-column>
+      </mj-section>
+
+      <!--CONTENT-->
+      <mj-wrapper
+        padding="40px 25px 30px 40px"
+        background-color="#ffffff">
+
+        <mj-section
+          padding="0"
+          >
+          <mj-text>
+            А вы знали, что 30 июля отмечается Международный день друзей? Дружба связывает людей по всей планете и делает мир лучше. Мы считаем Любимых покупателей своими друзьями, поэтому дарим вам скидку 10% на всё! Скидка действует только для получателей письма.
+          </mj-text>
+        </mj-section>
+
+      </mj-wrapper>
+
+      <!--FOOTER-->
+      <mj-section
+        padding="24px 40px"
+        background-color="#26A9E0"
+        border-radius="0 0 10px 10px"
+        vertical-align="middle">
+        <mj-column
+          width="210px"
+          padding="0">
+          <mj-text
+            padding="0"
+            font-size="14px"
+            color="#ffffff"
+            align="center"
+            line-height="40px">
+            <nobr>Следуйте за Читай-городом:</nobr>
+          </mj-text>
+        </mj-column>
+
+        <mj-column
+          width="310px"
+          padding="0">
+            <mj-social font-size="15px"
+              icon-size="40px"
+              mode="horizontal"
+              padding="0">
+              <mj-social-element href="http://vk.com/chitaigorod"
+              src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/2788.png" background-color="#26A9E0"></mj-social-element>
+              <mj-social-element href="http://www.facebook.com/chitaigorod"
+              src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/2789.png"
+              width="40px" background-color="#26A9E0"></mj-social-element>
+              <mj-social-element href="http://twitter.com/chitaigorod"
+              src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/2790.png"
+              width="40px" background-color="#26A9E0"></mj-social-element>
+              <mj-social-element href="http://ok.ru/chitaigorod"
+              src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/2791.png"
+              width="40px" background-color="#26A9E0"></mj-social-element>
+              <mj-social-element href="https://www.instagram.com/chitai_gorod/"
+              src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/2792.png" background-color="#26A9E0"></mj-social-element>
+              <mj-social-element href="https://www.youtube.com/channel/UCbsqXVnwSqer9QttshVs76A"
+              src="http://multimedia.gr.chitai-gorod.ru/chitaigorod/1/1/photos/2793.png" background-color="#26A9E0"></mj-social-element>
+            </mj-social>
+        </mj-column>
+      </mj-section>
+      <!--ENDFOOTER-->
+
+      <mj-spacer height="20px" />
+    </mj-wrapper>
+
+    <mj-section
+        full-width="full-width"
+        background-color="#ffffff"
+        padding="0">
+          <mj-column
+          width="100%">
+          <mj-text
+          font-size="11px"
+          color="#808080"
+          font-family="Helvetica, Arial, sans-serif"
+          align="center">
+           Вы получили это письмо, потому что подписались на рассылку новостей сайта <a class="linkUnsubscr" href="http://www.chitai-gorod.ru">www.chitai-gorod.ru</a><br />
+           Отписаться от рассылки можно <a href="[[remove]]" class="linkUnsubscr underlined">здесь</a>
+          </mj-text>
+    </mj-section>
+
+  </mj-body>
+
+</mjml>
