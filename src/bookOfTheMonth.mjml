@@ -6,6 +6,7 @@
           font-family="Helvetica, Arial, sans-serif"
           font-size="16px"
           line-height="1.2"
+          color="#333333"
         />
 
      </mj-attributes>
@@ -86,7 +87,7 @@
 
       <!--HEADER-->
       <mj-section
-        background-color="#FAA619"
+        background-color="#26a9e0"
         padding="25px 40px"
         border-radius="10px 10px 0 0">
 
@@ -173,8 +174,8 @@
         css-class="section section_first">
         <mj-column padding="0">
           <mj-text padding="0">
-            Каждый месяц мы выбираем особенную книгу, которая поможет вам открыть для себя что-то новое и интересное. Мы прочитали и оценили её, теперь ваша очередь :) <br><br>
-            Для получателей рассылки на эту и другие книги из письма действует <span style="color:#7a548c; font-weight:bold;">скидка 10%</span>, подробности &ndash; в самом конце.*
+            Каждый месяц мы выбираем особенную книгу, которая поможет вам открыть для себя что-то новое и интересное. Мы прочитали и оценили её, теперь ваша очередь :)<br><br>
+            Для получателей рассылки на эту и другие книги из письма действует <span style="color:#F05A22; font-weight:bold;">скидка 10%</span>, подробности &ndash; в самом конце.*
           </mj-text>
         </mj-column>
       </mj-section>
@@ -187,7 +188,7 @@
           background-color="#ffffff">
           <mj-image
               padding="0"
-              src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/3265.gif"
+              src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/3330.gif"
               width="600px"
               href="https://www.chitai-gorod.ru/" />
           </mj-column>
@@ -201,17 +202,297 @@
         background-color="#ffffff">
         <mj-column padding="0">
           <mj-text padding="0">
-            <span style="font-size:21px; color:#26a9e0;">Книга месяца** &ndash; «Прислуга», Кэтрин Стокетт</span><br><br>
-            Каждый месяц мы выбираем особенную книгу, которая поможет вам открыть для себя что-то новое и интересное. Мы прочитали и оценили её, теперь ваша очередь :) <br><br>
-            Для получателей рассылки на эту и другие книги из письма действует <span style="color:#7a548c; font-weight:bold;">скидка 10%</span>, подробности &ndash; в самом конце.*
+            <span style="font-size:21px; color:#F05A22;">Книга месяца** &ndash; «Дети мои», Гузель Яхина</span><br><br>
+            Гузель Яхина стала лауреатом премий «Большая книга» и «Ясная Поляна» за бестселлер «Зулейха открывает глаза». Уже через год после публикации этот роман был переведён на 30 языков.<br><br>
+            Главный герой книги «Дети мои» Якоб Бах работает шульмейстером, то есть учителем, в немецком Поволжье. Этот странный и нелюдимый человек учит детей своему родному немецкому языку, любит грозу, Шиллера и Гёте. Он сочиняет волшебные сказки, которые становятся реальностью. Однажды судьба сводит его с новой ученицей Кларой, и эта встреча меняет всю его жизнь.
           </mj-text>
         </mj-column>
       </mj-section>
 
+      <!--VIDEO-->
+      <mj-section
+        padding="10px 40px 20px 40px"
+        background-color="#ffffff"
+        text-align="left"
+        vertical-align="middle">
+        <mj-column padding="0"
+          width="120px">
+          <mj-image padding="0"
+          width="120px"
+          align="left"
+          src="https://img.youtube.com/vi/UE5iIUBBoOY/default.jpg"
+          href="https://www.youtube.com/watch?v=UE5iIUBBoOY&feature=youtu.be"/>
+        </mj-column>
+
+        <mj-column padding="27px 0">
+          <mj-text padding="0"
+            padding-left="25px">
+            <a href="https://www.youtube.com/watch?v=UE5iIUBBoOY&feature=youtu.be" style="color:#26a9e0; font-size:14px;">Подробный видеообзор<br>книги Гузель Яхиной</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!--END VIDEO-->
+
+      <!--BOOKS ZIGZAG-->
+      <mj-section padding="35px 30px 0 40px"
+        background-color="#ffffff">
+        <mj-column padding="0">
+          <mj-text padding="0"
+            color="#F05A22"
+            font-size="24px">
+            Читайте по-разному!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="20px 40px 0 0"
+        background-color="#ffffff"
+        text-align="left">
+        <mj-column padding="0"
+          width="200px">
+          <mj-image
+            padding="0"
+            width="200px"
+            src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/3331.png"
+            href="https://www.chitai-gorod.ru/catalog/book/1054793/" />
+        </mj-column>
+        <mj-column padding="0"
+          padding-top="10px"
+          width="360px">
+          <mj-text padding="0"
+            padding-bottom="7px"
+            color="#26A9E0"
+            font-size="21px">
+            Читать срочно
+          </mj-text>
+          <mj-text padding="0"
+            padding-bottom="7px"
+            font-weight="bold">
+            «Братья. Книга 2. Царский витязь.Том 2», Семёнова М.
+          </mj-text>
+          <mj-text padding="0"
+            padding-bottom="10px">
+            Вселенская Беда наслала на землю многолетнюю зиму и оставила немало сирот. В глухой деревушке в чужой семье вырос приёмыш – чудом спасённый царевич Светел, наследник некогда могущественной империи. Он решает стать витязем, чтобы найти и спасти родительского сына, насильно уведённого из дому. Пути братьев то сходятся, то разбегаются вновь. Суждена ли им встреча?
+          </mj-text>
+           <mj-button 
+            background-color="#8bc53f"
+            color="white"
+            align="left"
+            padding="0"
+            width="92px"
+            height="36px"
+            inner-padding="0"
+            href="https://www.chitai-gorod.ru/catalog/book/1054793/">
+            Купить
+         </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="45px 0 0 40px"
+        background-color="#ffffff"
+        text-align="left">
+        <mj-column padding="0"
+          padding-top="10px"
+          width="360px">
+          <mj-text padding="0"
+            padding-bottom="7px"
+            color="#26A9E0"
+            font-size="21px">
+            Читать нежно
+          </mj-text>
+          <mj-text padding="0"
+            padding-bottom="7px"
+            font-weight="bold">
+            «Назад к тебе», Джио С.
+          </mj-text>
+          <mj-text padding="0"
+            padding-bottom="10px">
+            Когда-то во время медового месяца Шарлотта попала в кораблекрушение и вернулась домой лишь два года спустя. Она провела много времени в открытом море, а затем на необитаемом острове в компании Грэя – нелюдимого мужчины, который помог ей выжить. Спустя много лет Шарлотта находит послание в бутылке и узнаёт, что Грэй ждёт её на острове.
+          </mj-text>
+           <mj-button 
+            background-color="#8bc53f"
+            color="white"
+            align="left"
+            padding="0"
+            width="92px"
+            height="36px"
+            inner-padding="0"
+            href="https://www.chitai-gorod.ru/catalog/book/1047325/">
+            Купить
+         </mj-button>
+        </mj-column>
+        <mj-column padding="0"
+          width="200px">
+          <mj-image
+            padding="0"
+            width="200px"
+            src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/3332.png"
+            href="https://www.chitai-gorod.ru/catalog/book/1047325/" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="45px 40px 0 0"
+        background-color="#ffffff"
+        text-align="left">
+        <mj-column padding="0"
+          width="200px">
+          <mj-image
+            padding="0"
+            width="200px"
+            src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/3333.png"
+            href="https://www.chitai-gorod.ru/catalog/book/1054793/" />
+        </mj-column>
+        <mj-column padding="0"
+          padding-top="10px"
+          width="360px">
+          <mj-text padding="0"
+            padding-bottom="7px"
+            color="#26A9E0"
+            font-size="21px">
+            Читать вкусно
+          </mj-text>
+          <mj-text padding="0"
+            padding-bottom="7px"
+            font-weight="bold">
+            «Просто Dolce. Сладкие рецепты #безсахара», Хозисова А.
+          </mj-text>
+          <mj-text padding="0"
+            padding-bottom="10px">
+            Сахар вреден, но как же без него жить сладкоежкам? Хорошая новость: выпечку, конфеты, блины, сырники, оладьи, каши и другие вкусные блюда можно приготовить без сахара. Анастасия Хозисова, топ-модель международного уровня и шеф-повар, разработала рецепты сладких и при этом полезных блюд.
+          </mj-text>
+           <mj-button 
+            background-color="#8bc53f"
+            color="white"
+            align="left"
+            padding="0"
+            width="92px"
+            height="36px"
+            inner-padding="0"
+            href="https://www.chitai-gorod.ru/catalog/book/1054793/">
+            Купить
+         </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="45px 0 0 40px"
+        background-color="#ffffff"
+        text-align="left">
+        <mj-column padding="0"
+          padding-top="10px"
+          width="360px">
+          <mj-text padding="0"
+            padding-bottom="7px"
+            color="#26A9E0"
+            font-size="21px">            
+            Читать снова
+          </mj-text>
+          <mj-text padding="0"
+            padding-bottom="7px"
+            font-weight="bold">
+            «Милый друг», Мопассан Г.
+          </mj-text>
+          <mj-text padding="0"
+            padding-bottom="10px">
+            Это самый знаменитый роман французского писателя Ги де Мопассана. Главный герой книги – невероятно обаятельный авантюрист, который благодаря своей внешности может покорить сердце любой дамы и подняться до самых верхов общества. На пути к славе и богатству он не остановится ни перед чем.
+          </mj-text>
+           <mj-button 
+            background-color="#8bc53f"
+            color="white"
+            align="left"
+            padding="0"
+            width="92px"
+            height="36px"
+            inner-padding="0"
+            href="https://www.chitai-gorod.ru/catalog/book/1047325/">
+            Купить
+         </mj-button>
+        </mj-column>
+        <mj-column padding="0"
+          width="200px">
+          <mj-image
+            padding="0"
+            width="200px"
+            src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/3334.png"
+            href="https://www.chitai-gorod.ru/catalog/book/1047325/" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="45px 40px 0 0"
+        background-color="#ffffff"
+        text-align="left">
+        <mj-column padding="0"
+          width="200px">
+          <mj-image
+            padding="0"
+            width="200px"
+            src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/3335.png"
+            href="https://www.chitai-gorod.ru/catalog/book/1054793/" />
+        </mj-column>
+        <mj-column padding="0"
+          padding-top="10px"
+          width="360px">
+          <mj-text padding="0"
+            padding-bottom="7px"
+            color="#26A9E0"
+            font-size="21px">
+            Читать вместе
+          </mj-text>
+          <mj-text padding="0"
+            padding-bottom="7px"
+            font-weight="bold">
+            «Ведьмина служба доставки. Книга 1», Кадоно Э.
+          </mj-text>
+          <mj-text padding="0"
+            padding-bottom="10px">
+            Юной ведьме Кики исполнилось тринадцать, а значит, пришло время начинать самостоятельную жизнь. Выбрать город, где нет других ведьм, найти дело по душе и научиться справляться с трудностями. Она отправляется в большой приморский город Корико, где о ведьмах едва ли кто-то слышал. Чем же будет заниматься Кики? Предприимчивая ведьма открывает службу доставки! У историй о Кики есть особенный поклонник – великий Хаяо Миядзаки.
+          </mj-text>
+           <mj-button 
+            background-color="#8bc53f"
+            color="white"
+            align="left"
+            padding="0"
+            width="92px"
+            height="36px"
+            inner-padding="0"
+            href="https://www.chitai-gorod.ru/catalog/book/1054793/">
+            Купить
+         </mj-button>
+        </mj-column>
+      </mj-section>
+      <!--END BOOKS ZIGZAG-->
+
+      <!--BONUS + BARCODE-->
+      <mj-section padding="40px 25px 0 40px"
+      background-color="#ffffff">
+        <mj-column padding="0">
+          <mj-text padding="0"
+            color="#26a9e0"
+            font-size="21px">
+            Бонус! На книги из рассылки действует <span style="color:#F05A22; font-weight:bold;">скидка 10%</span>. 
+            Чтобы получить её, нужно:<br>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="20px 25px 0 40px"
+        background-color="#ffffff">
+        <mj-column padding="0"
+          
+          padding-right="26px">
+          <mj-image padding="0" 
+            src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/3336.png"
+            width="19px" />
+        </mj-column>
+        <mj-column padding="0">
+       <mj-text> hhpjj[j[j]]</mj-text>
+        </mj-column>
+      </mj-section>
+
+
       <!--FOOTER-->
       <mj-section
         padding="24px 40px"
-        background-color="#FAA619"
+        background-color="#26a9e0"
         border-radius="0 0 10px 10px"
         vertical-align="middle">
         <mj-column
@@ -235,20 +516,20 @@
               mode="horizontal"
               padding="0">
               <mj-social-element href="http://vk.com/chitaigorod"
-              src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/2788.png" background-color="#FAA619"></mj-social-element>
+              src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/2788.png" background-color="#26a9e0"></mj-social-element>
               <mj-social-element href="http://www.facebook.com/chitaigorod"
               src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/2789.png"
-              background-color="#FAA619"></mj-social-element>
+              background-color="#26a9e0"></mj-social-element>
               <mj-social-element href="http://twitter.com/chitaigorod"
               src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/2790.png"
-              background-color="#FAA619"></mj-social-element>
+              background-color="#26a9e0"></mj-social-element>
               <mj-social-element href="http://ok.ru/chitaigorod"
               src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/2791.png"
-              background-color="#FAA619"></mj-social-element>
+              background-color="#26a9e0"></mj-social-element>
               <mj-social-element href="https://www.instagram.com/chitai_gorod/"
-              src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/2792.png" background-color="#FAA619"></mj-social-element>
+              src="https://multimedia.getresponse360.pl/chitaigorod/1/1/photos/2792.png" background-color="#26a9e0"></mj-social-element>
               <mj-social-element href="https://www.youtube.com/channel/UCbsqXVnwSqer9QttshVs76A"
-              src="http://multimedia.gr.chitai-gorod.ru/chitaigorod/1/1/photos/2793.png" background-color="#FAA619"></mj-social-element>
+              src="http://multimedia.gr.chitai-gorod.ru/chitaigorod/1/1/photos/2793.png" background-color="#26a9e0"></mj-social-element>
             </mj-social>
         </mj-column>
       </mj-section>
