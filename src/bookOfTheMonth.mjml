@@ -170,8 +170,8 @@
       <!--CONTENT-->
       
       <mj-section
-        padding="0"
-        css-class="section section_first">
+        padding="40px 25px 0 40px"
+        background-color="#ffffff">
         <mj-column padding="0">
           <mj-text padding="0">
             Каждый месяц мы выбираем особенную книгу, которая поможет вам открыть для себя что-то новое и интересное. Мы прочитали и оценили её, теперь ваша очередь :)<br><br>
